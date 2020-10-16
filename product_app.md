@@ -50,7 +50,7 @@
 ## Get list of product card
 #### Request method: GET
 
-[https://demoapp.baitushum.kg/product/card/](https://demoapp.baitushum.kg/product/card/) 
+[/product/card/](https://demoapp.baitushum.kg/product/card/) 
 
 
 ### Sample response
@@ -157,4 +157,5 @@
     "price_min": 0,
     "price_max": 100000000,
     "products": []
-}
+	}
+
