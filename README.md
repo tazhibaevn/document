@@ -7,13 +7,13 @@
 >1. [Market banner](#get-list-of-market-banner)
 >2. [Region](#get-list-of-region)
 >3. [Store](#get-list-of-store )
->4. [Branch by id](#get-branch-by-id )
+>4. [Branch by id](#get-branch-by-id)
 >7. [Branch products ](#get-branch-products)
 >5. [Branch rating ](#get-list-of-branch-rating)
 >6. [Branch schedule](#get-list-of-schedule)
->7. [Branch moderator](#get-list-of-branch-moderator )
+>7. [Branch moderator](#get-list-of-branch-moderator)
 >2. [Branch main branch](#get-list-of-main-branch)
->2. [Suggesting store](#get-list-of-suggesting-store )
+>2. [Suggesting store](#get-list-of-suggesting-store)
 
 ## Get list of market banner 
 #### Request method: GET
@@ -53,7 +53,7 @@
     }
 	]
         
-## 1.2. Get an item of market banner
+## Get an item of market banner
 #### Request method: GET
 
 ## [/store/banner/{id}/](https://demoapp.baitushum.kg/store/banner/1) 
@@ -99,7 +99,7 @@
         ]
     }
         
-## 2.1. Get an item of region
+## Get an item of region
 #### Request method: GET
 
 ## [/store/region/{id}/](https://demoapp.baitushum.kg/store/region/1) 
@@ -114,7 +114,7 @@
 
  
  
-##Get list of store 
+## Get list of store 
 #### Request method: GET
 
 ## [/store/store/](https://demoapp.baitushum.kg/store/store/) 
@@ -147,7 +147,7 @@
         ]
     }
         
-## 3.1. Get an item of store {#header1}
+## Get an item of store {#header1}
 #### Request method: GET
 
 ## [/store/store/{id}/](https://demoapp.baitushum.kg/store/store/3/) 
@@ -189,7 +189,7 @@
 
 
  
- ## 4. Get branch by id 
+## Get branch by id 
 #### Request method: GET
 
 ## [/store/branch/{id}/](https://demoapp.baitushum.kg/store/branch/14) 
@@ -204,7 +204,7 @@
         "phone": "0550077387"
     }
 
-## 4.1. <h1 id='header1'>Get branch products</h1> 
+## Get branch products
 #### Request method: GET
 #### Requesting headers: Token
 
@@ -341,7 +341,7 @@ Example request in POSTMAN:
         ]
     }
 
- ## 5. Get list of branch_rating 
+## Get list of branch rating 
 #### Request method: GET
 
 ## [/store/branch_rating/](https://demoapp.baitushum.kg/store/branch_rating/) 
@@ -386,7 +386,7 @@ Example request in POSTMAN:
             ]
         }
         
-## 5.1. Get an item of branch rating
+## Get an item of branch rating
 #### Request method: GET
 
 ## [/store/branch_rating/{id}/](https://demoapp.baitushum.kg/store/branch_rating/2/) 
@@ -401,7 +401,7 @@ Example request in POSTMAN:
         }
 
 
- ## 6. Get list of schedules 
+## Get list of schedules 
 #### Request method: GET
 
 ## [/store/schedule/](https://demoapp.baitushum.kg/store/schedule/) 
@@ -431,7 +431,7 @@ Example request in POSTMAN:
         ]
     }
         
-## 6.1. Get an item of branch schedule
+## Get an item of branch schedule
 #### Request method: GET
 
 ## [/store/schedule/{id}/](https://demoapp.baitushum.kg/store/branch_rating/12/) 
@@ -447,7 +447,7 @@ Example request in POSTMAN:
             "day_off": true
         }
 
- ## 7. Get list of branch moderators 
+## Get list of branch moderators 
 #### Request method: GET
 
 ## [/store/moderator/](https://demoapp.baitushum.kg/store/moderator/) 
@@ -477,7 +477,7 @@ Example request in POSTMAN:
         ]
     }
         
-## 7.1. Get an item of branch moderator
+## Get an item of branch moderator
 #### Request method: GET
 
 ## [/store/moderator/{id}/](https://demoapp.baitushum.kg/store/branch_rating/12/) 
@@ -491,7 +491,7 @@ Example request in POSTMAN:
         }
 
 
- ## 8. Get list of main branches 
+## Get list of main branches 
 #### Request method: GET
 
 ## [/store/main_branch/](https://demoapp.baitushum.kg/store/main_branch/) 
@@ -531,7 +531,7 @@ Example request in POSTMAN:
         ]
     }
         
-## 8.1. Get an item of main branch
+## Get an item of main branch
 #### Request method: GET
 
 ## [/store/main_branch/{id}/](https://demoapp.baitushum.kg/store/main_branhc/9/) 
@@ -587,7 +587,7 @@ Example request in POSTMAN:
         ]
     }
 
- ## 9. Get list of suggesting stores 
+## Get list of suggesting stores 
 #### Request method: POST
 #### Requesting headers: Token
 #### Requesting body: (data - raw; JSON)
@@ -634,7 +634,7 @@ Example request in POSTMAN:
         ] 
     }
         
-## 9.1. Get a list of suggesting store
+## Get a list of suggesting store
 #### Request method: GET
 
 ## [/store/suggesting_store/{id}/](https://demoapp.baitushum.kg/store/suggesting_store/9/) 
@@ -675,7 +675,7 @@ Example request in POSTMAN:
 
 
         
-## 3. Get list of top sales
+## Get list of top sales
 #### Request method: GET
 
 ## [/product/top_sales/](https://demoapp.baitushum.kg/product/top_sales/) 
@@ -708,7 +708,8 @@ Example request in POSTMAN:
         }
         ]
     }
-## 4. Get list of product card
+    
+## Get list of product card
 #### Request method: GET
 
 [https://demoapp.baitushum.kg/product/card/](https://demoapp.baitushum.kg/product/card/) 
@@ -753,7 +754,7 @@ Example request in POSTMAN:
       }
      
              
-## 5. Get an item of product card
+## Get an item of product card
 #### Request method: GET
 
 [https://demoapp.baitushum.kg/product/card/1/](https://demoapp.baitushum.kg/product/card/1/) 
