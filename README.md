@@ -2,20 +2,20 @@
  
 ## Application - <span style="color:red">**STORE**</span>
 
-#####List of links 
+##### List of links 
 
->1. [Market banner](#get-list-of-region)
->2. [Region]( doc/doc.md:140 )
->3. [Store]( doc/doc.md:140 )
->4. [Branch by id]( doc/doc.md:140 )
->7. [Branch products ]( doc/doc.md:140 )
->5. [Branch rating ]( doc/doc.md:140 )
->6. [Branch schedule]( doc/doc.md:140 )
->7. [Branch moderator]( doc/doc.md:140 )
->2. [Branch main branch]( doc/doc.md:140 )
->2. [Suggesting store]( doc/doc.md:140 )
+>1. [Market banner](#get-list-of-market-banner)
+>2. [Region](#get-list-of-region)
+>3. [Store](#get-list-of-store )
+>4. [Branch by id](#get-branch-by-id )
+>7. [Branch products ](#get-branch-products)
+>5. [Branch rating ](#get-list-of-branch-rating)
+>6. [Branch schedule](#get-list-of-schedule)
+>7. [Branch moderator](#get-list-of-branch-moderator )
+>2. [Branch main branch](#get-list-of-main-branch)
+>2. [Suggesting store](#get-list-of-suggesting-store )
 
-## 1. Get list of market banner 
+## Get list of market banner 
 #### Request method: GET
 
 ## [/store/banner/](https://demoapp.baitushum.kg/store/banner/) 
