@@ -10,11 +10,6 @@
 >7. [Application ADMINPANEL](#get-branch-products)
 >5. [Application DOCUMENT](#get-list-of-branch-rating)
 
-## Application - <span style="color:red">**PRODUCT**</span>
-
->1. [Product card](#get-list-of-product-card)
->2. [Product card item](#get-an-item-of-product-card)
-
 
 ## Get list of market banner 
 #### Request method: GET
