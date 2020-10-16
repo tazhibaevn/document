@@ -3,7 +3,7 @@
  
 # List of links 
 
-#>1. [Application STORE](https://github.com/tazhibaevn/document/blob/main/store_app.md)
+>#1. [Application STORE](https://github.com/tazhibaevn/document/blob/main/store_app.md)
 #>2. [Application PRODUCT](https://github.com/tazhibaevn/document/blob/main/product_app.md)
 #>3. [Application USER](#get-list-of-store )
 #>4. [Application USER_PROFILE](#get-branch-by-id)
