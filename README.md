@@ -10,10 +10,10 @@
 >4. [Branch by id](#get-branch-by-id)
 >7. [Branch products ](#get-branch-products)
 >5. [Branch rating ](#get-list-of-branch-rating)
->6. [Branch schedule](#get-list-of-schedule)
->7. [Branch moderator](#get-list-of-branch-moderator)
->2. [Branch main branch](#get-list-of-main-branch)
->2. [Suggesting store](#get-list-of-suggesting-store)
+>6. [Branch schedule](#get-list-of-schedules)
+>7. [Branch moderator](#get-list-of-branch-moderators)
+>2. [Branch main branch](#get-list-of-main-branches)
+>2. [Suggesting store](#get-list-of-suggesting-stores)
 
 ## Get list of market banner 
 #### Request method: GET
