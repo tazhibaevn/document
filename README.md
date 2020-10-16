@@ -1,20 +1,19 @@
 # BTB ONLINE DOCUMENTATION (REST API)
  
+ 
+# List of links 
 
-
-##### List of links 
-
->1. [Application STORE](https://github.com/tazhibaevn/document/blob/main/store_app.md)
->2. [Application PRODUCT](https://github.com/tazhibaevn/document/blob/main/product_app.md)
->3. [Application USER](#get-list-of-store )
->4. [Application USER_PROFILE](#get-branch-by-id)
->7. [Application ADMINPANEL](#get-branch-products)
->5. [Application DOCUMENT](#get-list-of-branch-rating)
+#>1. [Application STORE](https://github.com/tazhibaevn/document/blob/main/store_app.md)
+#>2. [Application PRODUCT](https://github.com/tazhibaevn/document/blob/main/product_app.md)
+#>3. [Application USER](#get-list-of-store )
+#>4. [Application USER_PROFILE](#get-branch-by-id)
+#>7. [Application ADMINPANEL](#get-branch-products)
+#>5. [Application DOCUMENT](#get-list-of-branch-rating)
 
 ## Application - <span style="color:red">**PRODUCT**</span>
 
->1. [Product card](#get-list-of-product-card)
->2. [Product card item](#get-an-item-of-product-card)
+#>1. [Product card](#get-list-of-product-card)
+#>2. [Product card item](#get-an-item-of-product-card)
 
 
 ## Get list of market banner 
