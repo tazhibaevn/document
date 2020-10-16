@@ -1,8 +1,10 @@
 # BTB ONLINE DOCUMENTATION (REST API)
  
-## Application - <span style="color:red">**STORE**</span>
+
 
 ##### List of links 
+
+## Application - <span style="color:red">**STORE**</span>
 
 >1. [Market banner](#get-list-of-market-banner)
 >2. [Region](#get-list-of-region)
@@ -14,6 +16,12 @@
 >7. [Branch moderator](#get-list-of-branch-moderators)
 >2. [Branch main branch](#get-list-of-main-branches)
 >2. [Suggesting store](#get-list-of-suggesting-stores)
+
+## Application - <span style="color:red">**PRODUCT**</span>
+
+>1. [Product card](#get-list-of-product-card)
+>2. [Product card item](#get-an-item-of-product-card)
+
 
 ## Get list of market banner 
 #### Request method: GET
@@ -70,8 +78,7 @@
     }
     ]
     
- 
-<a name = 'link'>Link sample</a>
+
  
 ## Get list of region 
 #### Request method: GET
@@ -211,6 +218,8 @@
 ## [/store/branch/{id}/product/](https://demoapp.baitushum.kg/store/branch/14/product/) 
 
 Example request in POSTMAN:
+
+
 
 ![Postman](images/branch_products.png) 
 
@@ -708,11 +717,13 @@ Example request in POSTMAN:
         }
         ]
     }
-    
+
+
+# Application PRODUCT 
 ## Get list of product card
 #### Request method: GET
 
-[https://demoapp.baitushum.kg/product/card/](https://demoapp.baitushum.kg/product/card/) 
+##[/product/card/](https://demoapp.baitushum.kg/product/card/) 
 
 
 ### Sample response
@@ -757,7 +768,7 @@ Example request in POSTMAN:
 ## Get an item of product card
 #### Request method: GET
 
-[https://demoapp.baitushum.kg/product/card/1/](https://demoapp.baitushum.kg/product/card/1/) 
+[/product/card/{id}/](https://demoapp.baitushum.kg/product/card/1/) 
 
 
 ### Sample response
