@@ -95,7 +95,7 @@
 ## Get an item of product card
 #### Request method: GET
 
-## [/product/card/1/](https://demoapp.baitushum.kg/product/card/1/) 
+## [/product/card/{id}/](https://demoapp.baitushum.kg/product/card/1/) 
 
 
 ### Sample response
