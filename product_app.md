@@ -4,12 +4,13 @@
 
 >1. [Top sales](#get-list-of-top-sales)
 >2. [Product card](#get-list-of-product-card)
->3. [Store](#get-list-of-store )
->4. [Branch by id](#get-branch-by-id)
->7. [Branch products ](#get-branch-products)
->5. [Branch rating ](#get-list-of-branch-rating)
->6. [Branch schedule](#get-list-of-schedule)
->7. [Branch moderator](#get-list-of-branch-moderator)
+>3. [Scope](#get-list-of-scope-of-product )
+>4. [Attributte type](#get-list-of-attribute-type)
+>7. [Attribute ](#get-list-attribute-of-product)
+>5. [Category](#get-list-of-category)
+>6. [Sub category](#get-list-of-sub_category)
+>7. [Brand](#get-list-of-brand)
+
 >2. [Branch main branch](#get-list-of-main-branch)
 >2. [Suggesting store](#get-list-of-suggesting-store)
 
