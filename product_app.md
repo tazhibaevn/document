@@ -420,12 +420,12 @@
 
 ### Sample response
 
-{
-    "id": 1,
-    "name": "белый",
-    "attribute_type": 1,
-    "tag_attribute": "#ffffff"
-}
+	{
+	    "id": 1,
+	    "name": "белый",
+	    "attribute_type": 1,
+	    "tag_attribute": "#ffffff"
+	}
 
 
 ## Get list of category 
@@ -503,66 +503,256 @@
 ### Sample response
 
 	{
-    "count": 8,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 4,
-            "card_name": "Телевизоры Смарт XIAOMI MI TV 4A 32 81 см",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/xiaomi-mi-tv-4a-32-81-sm-cernyj-1801503-1.webp",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 5,
-            "card_name": "Телевизор LED Samsung UE50NU7090U 125 см черный",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/imagesassas.jpeg",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 13,
-            "card_name": "Apple iPhone 11 64Gb черный",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/apple2_ha68eTy.jpeg",
-            "price_min": 82000,
-            "price_max": 82000
-        },
-        {
-            "id": 14,
-            "card_name": "Смартфон Apple iPhone 11 64Gb белый",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/images.jpeg",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 15,
-            "card_name": "Браслет Xiaomi Mi Smart Band 4 черный",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/images_2.jpeg",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 17,
-            "card_name": "Xioami Redmi note 9",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv_.png",
-            "price_min": 23000,
-            "price_max": 76000
-        },
-        {
-            "id": 18,
-            "card_name": "Samsung Galaxy S20",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/Samsung-S20-BTS-Edition.jpg",
-            "price_min": 10000,
-            "price_max": 78000
-        },
-        {
-            "id": 23,
-            "card_name": "Xioami Redmi note 10",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv__ldlhlcQ.png",
-            "price_min": 0,
-            "price_max": 0
-        }
-    ]
+	    "count": 8,
+	    "next": null,
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 4,
+		    "card_name": "Телевизоры Смарт XIAOMI MI TV 4A 32 81 см",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/xiaomi-mi-tv-4a-32-81-sm-cernyj-1801503-1.webp",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 5,
+		    "card_name": "Телевизор LED Samsung UE50NU7090U 125 см черный",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/imagesassas.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 13,
+		    "card_name": "Apple iPhone 11 64Gb черный",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/apple2_ha68eTy.jpeg",
+		    "price_min": 82000,
+		    "price_max": 82000
+		},
+		{
+		    "id": 14,
+		    "card_name": "Смартфон Apple iPhone 11 64Gb белый",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/images.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 15,
+		    "card_name": "Браслет Xiaomi Mi Smart Band 4 черный",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/images_2.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 17,
+		    "card_name": "Xioami Redmi note 9",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv_.png",
+		    "price_min": 23000,
+		    "price_max": 76000
+		},
+		{
+		    "id": 18,
+		    "card_name": "Samsung Galaxy S20",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/Samsung-S20-BTS-Edition.jpg",
+		    "price_min": 10000,
+		    "price_max": 78000
+		},
+		{
+		    "id": 23,
+		    "card_name": "Xioami Redmi note 10",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv__ldlhlcQ.png",
+		    "price_min": 0,
+		    "price_max": 0
+		}
+	    ]
+	}
+
+
+## Get list of sub_category 
+#### Request method: GET
+
+## [/product/sub_category/](https://demoapp.baitushum.kg/product/sub_category/) 
+
+
+### Sample response
+
+	{
+	    "count": 47,
+	    "next": "https://demoapp.baitushum.kg/product/sub_category/?page=2",
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 1,
+		    "name": "Телефоны",
+		    "category_name": "Электроника"
+		},
+		{
+		    "id": 2,
+		    "name": "Компьютеры и ноутбуки",
+		    "category_name": "Электроника"
+		},
+		{
+		    "id": 3,
+		    "name": "Гаджеты",
+		    "category_name": "Электроника"
+		},
+		{
+		    "id": 4,
+		    "name": "Телевизоры",
+		    "category_name": "Электроника"
+		},
+		{
+		    "id": 5,
+		    "name": "Холодильник",
+		    "category_name": "Бытовая техника"
+		},
+		{
+		    "id": 6,
+		    "name": "Для мужчин",
+		    "category_name": "Одежда"
+		},
+		{
+		    "id": 7,
+		    "name": "Для женщин",
+		    "category_name": "Одежда"
+		},
+		{
+		    "id": 8,
+		    "name": "Для женщин",
+		    "category_name": "Одежда"
+		},
+		{
+		    "id": 9,
+		    "name": "Для девочек",
+		    "category_name": "Одежда"
+		},
+		{
+		    "id": 10,
+		    "name": "Для мальчиков",
+		    "category_name": "Одежда"
+		}
+	    ]
+	}
+	
+## Get an item of sub_category or get products by sub_category
+#### Request method: GET
+
+## [/product/sub_category/{id}/](https://demoapp.baitushum.kg/product/sub_category/1/) 
+
+
+### Sample response
+
+	{
+	    "name": "Телефоны",
+	    "product_card": [
+		{
+		    "id": 13,
+		    "card_name": "Apple iPhone 11 64Gb черный",
+		    "card_image": "/media/product_card/apple2_ha68eTy.jpeg",
+		    "price_min": 82000,
+		    "price_max": 82000
+		},
+		{
+		    "id": 14,
+		    "card_name": "Смартфон Apple iPhone 11 64Gb белый",
+		    "card_image": "/media/product_card/images.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 17,
+		    "card_name": "Xioami Redmi note 9",
+		    "card_image": "/media/product_card/err_serv_.png",
+		    "price_min": 23000,
+		    "price_max": 76000
+		},
+		{
+		    "id": 18,
+		    "card_name": "Samsung Galaxy S20",
+		    "card_image": "/media/product_card/Samsung-S20-BTS-Edition.jpg",
+		    "price_min": 10000,
+		    "price_max": 78000
+		},
+		{
+		    "id": 23,
+		    "card_name": "Xioami Redmi note 10",
+		    "card_image": "/media/product_card/err_serv__ldlhlcQ.png",
+		    "price_min": 0,
+		    "price_max": 0
+		}
+	    ]
+	}
+	
+## Get list of brand  
+#### Request method: GET
+
+## [/product/brand/](https://demoapp.baitushum.kg/product/brand/) 
+
+
+### Sample response
+
+	{
+	    "count": 7,
+	    "next": null,
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 1,
+		    "name": "Apple",
+		    "description": "AppleAppleAppleAppleAppleApple",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/Screenshot_from_2020-07-10_13-30-58.png"
+		},
+		{
+		    "id": 2,
+		    "name": "Samsung",
+		    "description": "SamsungSamsungSamsungSamsungSamsung",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/Screenshot_from_2020-07-13_17-19-46.png"
+		},
+		{
+		    "id": 3,
+		    "name": "Zara",
+		    "description": "Zara",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/Screenshot_from_2020-07-13_17-19-46_X4T4Tlx.png"
+		},
+		{
+		    "id": 4,
+		    "name": "XIAOMI",
+		    "description": "",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/images.png"
+		},
+		{
+		    "id": 5,
+		    "name": "EuroMebel",
+		    "description": "EuroMebel",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/logoEM.jpeg"
+		},
+		{
+		    "id": 6,
+		    "name": "Кузмич",
+		    "description": "Кузмич",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/WhatsApp_Image_2020-04-11_at_16.15.54_1.jpeg"
+		},
+		{
+		    "id": 7,
+		    "name": "Asics",
+		    "description": "Мощно",
+		    "logo": "https://demoapp.baitushum.kg/media/brand/asics_%D0%B1%D1%80%D0%B5%D0%BD%D0%B4.jpg"
+		}
+	    ]
+	}
+
+	
+## Get an item of brand
+#### Request method: GET
+
+## [/product/sub_category/{id}/](https://demoapp.baitushum.kg/product/sub_category/1/) 
+
+
+### Sample response
+
+	{
+	    "id": 1,
+	    "name": "apple",
+	    "description": "appleappleappleappleappleappleapple",
+	    "logo": "http://127.0.0.1:8000/media/brand/photo_2020-07-21_10-19-56.jpg"
 	}
 
