@@ -11,8 +11,12 @@
 >6. [Sub category](#get-list-of-sub_category)
 >7. [Brand](#get-list-of-brand)
 
->2. [Branch main branch](#get-list-of-main-branch)
->2. [Suggesting store](#get-list-of-suggesting-store)
+>2. [Product](#get-list-of-product)
+>2. [Purchase](#get-list-of-purchase)
+>2. [Top sales](#get-list-of-top-sales)
+>2. [My purchase](#get-list-of-my-purchase)
+>2. [Similar product](#get-similar-products-by-card-id)
+
 
 ## Get list of top sales
 #### Request method: GET
