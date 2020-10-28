@@ -1072,10 +1072,12 @@
 	    }
 	]
 
+
 ## Get similar products by card id
+
 #### Request method: GET
 
-# In this endpoint the main idea is to get similar products according to ID. For example, if we will request id of Iphone(mobile phone),as a result we will get only mobile phones related to the card. Moreover, it will be displayed as random, every request will not be ordered by ID.
+### In this endpoint the main idea is to get similar products according to ID. For example, if we will request id of Iphone(mobile phone),as a result we will get only mobile phones related to the card. Moreover, it will be displayed as random, every request will not be ordered by ID.
 
 ## [/product/similar_product/{id}/](https://demoapp.baitushum.kg/product/similar_product/13/) 
 
