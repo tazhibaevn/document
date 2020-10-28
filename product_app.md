@@ -768,5 +768,353 @@
 ![suggesting_store:body](images/product-product.png)
 
 
-
 ### Sample response:
+
+	[
+	    {
+		"id": 9,
+		"price": 5000,
+		"branch": {
+		    "id": 10,
+		    "name": "Adidas Asanbay",
+		    "address": "address 2",
+		    "logo": "https://demoapp.baitushum.kg/media/store/adidas.jpg",
+		    "phone": "+996509055057"
+		},
+		"quantity": 1,
+		"card_id": 8,
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/%D0%B21.jpeg",
+		"card_name": "Витамины Optimum Nutrition Opti-Men (90 таблеток)",
+		"attribute_type": [],
+		"is_favourite": false
+	    },
+	    {
+		"id": 21,
+		"price": 78000,
+		"branch": {
+		    "id": 14,
+		    "name": "Samsung Bishkek",
+		    "address": "г.Бишкек ул Суюнбаева 80",
+		    "logo": "https://demoapp.baitushum.kg/media/store/Screenshot_from_2020-09-14_09-43-06.png",
+		    "phone": "0550077387"
+		},
+		"quantity": 200,
+		"card_id": 18,
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/Samsung-S20-BTS-Edition.jpg",
+		"card_name": "Samsung Galaxy S20",
+		"attribute_type": [
+		    {
+			"id": 1,
+			"name": "Цвет",
+			"tag_attribute_type": "COLOR",
+			"attributes": [
+			    {
+				"id": 1,
+				"name": "белый",
+				"attribute_type": 1,
+				"tag_attribute": "#ffffff"
+			    }
+			]
+		    }
+		],
+		"is_favourite": true
+	    },
+	    {
+		"id": 22,
+		"price": 23000,
+		"branch": {
+		    "id": 15,
+		    "name": "Xioami Bishkek",
+		    "address": "г. Бишкек ул. Уметалиева 76",
+		    "logo": "https://demoapp.baitushum.kg/media/store/15944015-72FA-3105-CE5C-0C68E04C7BE6.png",
+		    "phone": "0550077387"
+		},
+		"quantity": 200,
+		"card_id": 17,
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv_.png",
+		"card_name": "Xioami Redmi note 9",
+		"attribute_type": [
+		    {
+			"id": 1,
+			"name": "Цвет",
+			"tag_attribute_type": "COLOR",
+			"attributes": [
+			    {
+				"id": 1,
+				"name": "белый",
+				"attribute_type": 1,
+				"tag_attribute": "#ffffff"
+			    },
+			    {
+				"id": 2,
+				"name": "черный",
+				"attribute_type": 1,
+				"tag_attribute": "#000000"
+			    },
+			    {
+				"id": 8,
+				"name": "синяя",
+				"attribute_type": 1,
+				"tag_attribute": "#2f5dde"
+			    }
+			]
+		    },
+		    {
+			"id": 4,
+			"name": "USB",
+			"tag_attribute_type": "USB",
+			"attributes": [
+			    {
+				"id": 23,
+				"name": "3.0",
+				"attribute_type": 4,
+				"tag_attribute": null
+			    }
+			]
+		    },
+		    {
+			"id": 5,
+			"name": "Память",
+			"tag_attribute_type": "STORAGE",
+			"attributes": [
+			    {
+				"id": 25,
+				"name": "64 GB",
+				"attribute_type": 5,
+				"tag_attribute": "64 GB"
+			    }
+			]
+		    }
+		],
+		"is_favourite": false
+	    }
+	   ]
+	
+## Get list of prchase  
+#### Request method: GET
+
+## [/product/purchase/](https://demoapp.baitushum.kg/product/purchase/) 
+
+
+### Sample response
+
+	{
+	    "count": 64,
+	    "next": "https://demoapp.baitushum.kg/product/purchase/?page=2",
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 13,
+		    "buyer": 3,
+		    "branch": null,
+		    "total_price": null
+		},
+		{
+		    "id": 14,
+		    "buyer": 3,
+		    "branch": null,
+		    "total_price": null
+		},
+		{
+		    "id": 42,
+		    "buyer": 18,
+		    "branch": null,
+		    "total_price": null
+		},
+		{
+		    "id": 43,
+		    "buyer": 18,
+		    "branch": null,
+		    "total_price": null
+		}
+	    ]
+	}
+## Get an item of purchase
+#### Request method: GET
+
+## [/product/purchase/{id}/](https://demoapp.baitushum.kg/product/purchase/13/) 
+
+
+### Sample response
+	{
+	    "id": 13,
+	    "buyer": 3,
+	    "branch": null,
+	    "total_price": null
+	}
+	
+	
+## Get list of top sales  
+#### Request method: GET
+
+## [/product/top_sales/](https://demoapp.baitushum.kg/product/top_sales/) 
+
+
+### Sample response
+
+	{
+	    "count": 8,
+	    "next": null,
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 17,
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv_.png",
+		    "card_name": "Xioami Redmi note 9",
+		    "price_min": 23000
+		},
+		{
+		    "id": 18,
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/Samsung-S20-BTS-Edition.jpg",
+		    "card_name": "Samsung Galaxy S20",
+		    "price_min": 10000
+		},
+		{
+		    "id": 22,
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/refrigerator_PNG9035.png",
+		    "card_name": "Холодильник   Xiaomi",
+		    "price_min": 23000
+		},
+		{
+		    "id": 24,
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE.jpg",
+		    "card_name": "Кольцо Кузь",
+		    "price_min": 13000
+		},
+		{
+		    "id": 12,
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/%D1%861.jpeg",
+		    "card_name": "Шина Tunga NordWay 2 195/65 R15 91Q",
+		    "price_min": 34000
+		},
+		{
+		    "id": 19,
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/10-1-471x375.png",
+		    "card_name": "Диван Угловой Универсальный",
+		    "price_min": 23000
+		}
+	    ]
+	}
+	
+
+## Get list of my purchase  
+#### Request method: GET
+
+#### Request headers: Token
+
+## [/product/my_purchase/](https://demoapp.baitushum.kg/product/my_purchase/) 
+
+![suggesting_store:body](images/my_purchase.png)
+
+### Sample response
+
+	[
+	    {
+		"id": 55,
+		"product": 31,
+		"purchase": 52,
+		"quantity": 2,
+		"price": 34000.0,
+		"branch_name": "ЕвроМебель Плаза",
+		"branch_phone": "0550077387",
+		"card_name": "Шина Tunga NordWay 2 195/65 R15 91Q",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/%D1%861.jpeg",
+		"status": "В процессе"
+	    },
+	    {
+		"id": 61,
+		"product": 32,
+		"purchase": 78,
+		"quantity": 1,
+		"price": 45000.0,
+		"branch_name": "Xioami Bishkek",
+		"branch_phone": "0550077387",
+		"card_name": "Холодильник   Xiaomi",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/refrigerator_PNG9035.png",
+		"status": "В процессе"
+	    }
+	]
+	
+	
+## Get an item of my purchase
+
+#### Request method: GET
+#### Request headers: Token
+
+## [/product/my_purchase/{id}/](https://demoapp.baitushum.kg/product/my_purchase/55/)
+
+
+### Sample response
+	[
+	    {
+		"id": 55,
+		"product": 31,
+		"purchase": 52,
+		"quantity": 2,
+		"price": 34000.0,
+		"branch_name": "ЕвроМебель Плаза",
+		"branch_phone": "0550077387",
+		"card_name": "Шина Tunga NordWay 2 195/65 R15 91Q",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/%D1%861.jpeg",
+		"status": "В процессе",
+		"card_gallery": [
+		    {
+			"id": 21,
+			"card": 12,
+			"image": "https://demoapp.baitushum.kg/media/product_card/%D1%8622.jpeg"
+		    },
+		    {
+			"id": 22,
+			"card": 12,
+			"image": "https://demoapp.baitushum.kg/media/product_card/%D1%8622_g7X4FQg.jpeg"
+		    }
+		]
+	    }
+	]
+
+## Get similar products by card id
+#### Request method: GET
+
+# In this endpoint the main idea is to get similar products according to ID. For example, if we will request id of Iphone(mobile phone),as a result we will get only mobile phones related to the card. Moreover, it will be displayed as random, every request will not be ordered by ID.
+
+## [/product/similar_product/{id}/](https://demoapp.baitushum.kg/product/similar_product/13/) 
+
+### Sample response
+
+	[
+	    {
+		"id": 4,
+		"card_name": "Телевизоры Смарт XIAOMI MI TV 4A 32 81 см",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/xiaomi-mi-tv-4a-32-81-sm-cernyj-1801503-1.webp",
+		"price_min": 0,
+		"price_max": 100000000
+	    },
+	    {
+		"id": 17,
+		"card_name": "Xioami Redmi note 9",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv_.png",
+		"price_min": 76000,
+		"price_max": 23000
+	    },
+	    {
+		"id": 23,
+		"card_name": "Xioami Redmi note 10",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv__ldlhlcQ.png",
+		"price_min": 0,
+		"price_max": 100000000
+	    },
+	    {
+		"id": 5,
+		"card_name": "Телевизор LED Samsung UE50NU7090U 125 см черный",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/imagesassas.jpeg",
+		"price_min": 0,
+		"price_max": 100000000
+	    },
+	    {
+		"id": 18,
+		"card_name": "Samsung Galaxy S20",
+		"card_image": "https://demoapp.baitushum.kg/media/product_card/Samsung-S20-BTS-Edition.jpg",
+		"price_min": 78000,
+		"price_max": 10000
+	    }
+	]
