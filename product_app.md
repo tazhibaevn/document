@@ -761,14 +761,12 @@
 ## Get list of product  
 #### Request method: GET
 
+#### Requesting headers: Token
 ## [/product/product/](https://demoapp.baitushum.kg/product/product/) 
 
 
-#### Requesting headers: Token
+![suggesting_store:body](images/product-product.png)
 
-![suggesting_store:body](images/suggesting_store_token.png)
-![suggesting_store:body](images/suggesting_store_body.png)
-## [/store/suggesting_store/](https://demoapp.baitushum.kg/store/suggesting_store/) 
 
 
 ### Sample response:
