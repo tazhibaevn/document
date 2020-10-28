@@ -757,3 +757,18 @@
 	    "logo": "http://127.0.0.1:8000/media/brand/photo_2020-07-21_10-19-56.jpg"
 	}
 
+	
+## Get list of product  
+#### Request method: GET
+
+## [/product/product/](https://demoapp.baitushum.kg/product/product/) 
+
+
+#### Requesting headers: Token
+
+![suggesting_store:body](images/suggesting_store_token.png)
+![suggesting_store:body](images/suggesting_store_body.png)
+## [/store/suggesting_store/](https://demoapp.baitushum.kg/store/suggesting_store/) 
+
+
+### Sample response:
