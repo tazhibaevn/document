@@ -11,7 +11,7 @@
 >6. [Branch schedule](#get-list-of-schedule)
 >7. [Branch moderator](#get-list-of-branch-moderator)
 >2. [Branch main branch](#get-list-of-main-branch)
->2. [Suggesting store](#get-list-of-suggesting-store)
+>2. [Suggesting store](#get-list-of-suggesting-stores)
 
 ## Get list of market banner 
 #### Request method: GET
