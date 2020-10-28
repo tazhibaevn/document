@@ -893,7 +893,7 @@
 	    }
 	   ]
 	
-## Get list of prchase  
+## Get list of purchase  
 #### Request method: GET
 
 ## [/product/purchase/](https://demoapp.baitushum.kg/product/purchase/) 
