@@ -4,6 +4,7 @@
 
 >1. [Top sales](#get-list-of-top-sales)
 >2. [Product card](#get-list-of-product-card)
+>2. [Search in product card ](#search-in-list-of-product-card)
 >3. [Scope](#get-list-of-scope-of-product )
 >4. [Attributte type](#get-list-of-attribute-type)
 >7. [Attribute ](#get-list-attribute-of-product)
@@ -60,40 +61,40 @@
 ### Sample response
 
 	{
-    "count": 20,
-    "next": "https://demoapp.baitushum.kg/product/card/?page=2",
-    "previous": null,
-    "results": [
-        {
-            "id": 4,
-            "card_name": "Телевизоры Смарт XIAOMI MI TV 4A 32 81 см",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/xiaomi-mi-tv-4a-32-81-sm-cernyj-1801503-1.webp",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 5,
-            "card_name": "Телевизор LED Samsung UE50NU7090U 125 см черный",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/imagesassas.jpeg",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 6,
-            "card_name": "Thomas Graf SCMLW0130_173 однотонная синяя XL",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/f1.png",
-            "price_min": 0,
-            "price_max": 0
-        },
-        {
-            "id": 7,
-            "card_name": "DeFacto N3733AZ в полоску коричневый S",
-            "card_image": "https://demoapp.baitushum.kg/media/product_card/p1.jpeg",
-            "price_min": 0,
-            "price_max": 0
-        }
-      ]
-      }
+	    "count": 20,
+	    "next": "https://demoapp.baitushum.kg/product/card/?page=2",
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 4,
+		    "card_name": "Телевизоры Смарт XIAOMI MI TV 4A 32 81 см",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/xiaomi-mi-tv-4a-32-81-sm-cernyj-1801503-1.webp",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 5,
+		    "card_name": "Телевизор LED Samsung UE50NU7090U 125 см черный",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/imagesassas.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 6,
+		    "card_name": "Thomas Graf SCMLW0130_173 однотонная синяя XL",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/f1.png",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 7,
+		    "card_name": "DeFacto N3733AZ в полоску коричневый S",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/p1.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		}
+	      ]
+	      }
      
              
 ## Get an item of product card
@@ -162,6 +163,44 @@
 	    "price_max": 100000000,
 	    "products": []
 	}
+	
+	
+## Search in list of product card
+#### Request method: GET
+
+## [/product/brand/?search=Телевиз&ordering=id](https://demoapp.baitushum.kg/product/card/?search=Телевиз&ordering=id) 
+
+
+### Sample response
+
+	{
+	    "count": 3,
+	    "next": null,
+	    "previous": null,
+	    "results": [
+		{
+		    "id": 4,
+		    "card_name": "Телевизоры Смарт XIAOMI MI TV 4A 32 81 см",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/xiaomi-mi-tv-4a-32-81-sm-cernyj-1801503-1.webp",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 5,
+		    "card_name": "Телевизор LED Samsung UE50NU7090U 125 см черный",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/imagesassas.jpeg",
+		    "price_min": 0,
+		    "price_max": 0
+		},
+		{
+		    "id": 21,
+		    "card_name": "Телевизор Samsung",
+		    "card_image": "https://demoapp.baitushum.kg/media/product_card/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpeg",
+		    "price_min": 23000,
+		    "price_max": 76900
+		}
+	    ]
+	}	
 	
 	
 ## Get list of scope of product
@@ -933,6 +972,23 @@
 	    ]
 	}
 ## Get an item of purchase
+#### Request method: POST
+#### Request headers: Token
+
+
+## [/product/purchase/](https://demoapp.baitushum.kg/product/purchase/) 
+
+
+### Sample response
+	{
+	    "id": 13,
+	    "buyer": 3,
+	    "branch": null,
+	    "total_price": null
+	}
+	
+	
+## Create a purchase 
 #### Request method: GET
 
 ## [/product/purchase/{id}/](https://demoapp.baitushum.kg/product/purchase/13/) 
@@ -1123,3 +1179,5 @@
 		"price_max": 10000
 	    }
 	]
+
+--------------------------------------------------------------
