@@ -13,6 +13,8 @@
 >7. [Brand](#get-list-of-brand)
 >8. [Product](#get-list-of-product)
 >9. [Purchase](#get-list-of-purchase)
+
+>9. [Create a purchase](#create-a-purchase)
 >10. [Top sales](#get-list-of-top-sales)
 >11. [My purchase](#get-list-of-my-purchase)
 >12. [Similar product](#get-similar-products-by-card-id)
@@ -989,19 +991,46 @@
 	
 	
 ## Create a purchase 
-#### Request method: GET
+#### Request method: POST
+#### Request headers: Token
 
-## [/product/purchase/{id}/](https://demoapp.baitushum.kg/product/purchase/13/) 
+## [/product/purchase/](https://demoapp.baitushum.kg/product/purchase/) 
+
+![purchase_create:body](images/purchase_create.png)
+![purchase_create:headers](images/purchase_create_token.png)
+
+#### If, is_delivery, wil be TRUE , address will be sent to database and will be saved.And if it will be FALSE, application will screen an addres where client can get order by himself.
+
+### Request body:
+
+	{
+	    "is_delivery": false,
+	    "delivery_address": {
+	    "region": "Bishkek",
+	    "street": "AK-tilek",
+	    "house": "A-oinok",
+	    "flat": "15"
+	    },
+		"products": [
+		    {
+		    "product_id": 25,
+		    "amount": 1
+		    },
+		    {
+		    "product_id": 9,
+		    "amount": 1
+		    }
+		]
+	}
+
 
 
 ### Sample response
+
 	{
-	    "id": 13,
-	    "buyer": 3,
-	    "branch": null,
-	    "total_price": null
+	    "total_price": "Спасибо за САМОВЫВОЗ!Вы купили товар на сумму: 81000"
 	}
-	
+
 	
 ## Get list of top sales  
 #### Request method: GET
