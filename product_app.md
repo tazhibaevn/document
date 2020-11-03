@@ -14,8 +14,8 @@
 >8. [Product](#get-list-of-product)
 >9. [Purchase](#get-list-of-purchase)
 
->9. [Create a purchase](#create-a-purchase)
->10. [Top sales](#get-list-of-top-sales)
+>10. [Create a purchase](#create-a-purchase)
+
 >11. [My purchase](#get-list-of-my-purchase)
 >12. [Similar product](#get-similar-products-by-card-id)
 
@@ -1031,58 +1031,6 @@
 	    "total_price": "Спасибо за САМОВЫВОЗ!Вы купили товар на сумму: 81000"
 	}
 
-	
-## Get list of top sales  
-#### Request method: GET
-
-## [/product/top_sales/](https://demoapp.baitushum.kg/product/top_sales/) 
-
-
-### Sample response
-
-	{
-	    "count": 8,
-	    "next": null,
-	    "previous": null,
-	    "results": [
-		{
-		    "id": 17,
-		    "card_image": "https://demoapp.baitushum.kg/media/product_card/err_serv_.png",
-		    "card_name": "Xioami Redmi note 9",
-		    "price_min": 23000
-		},
-		{
-		    "id": 18,
-		    "card_image": "https://demoapp.baitushum.kg/media/product_card/Samsung-S20-BTS-Edition.jpg",
-		    "card_name": "Samsung Galaxy S20",
-		    "price_min": 10000
-		},
-		{
-		    "id": 22,
-		    "card_image": "https://demoapp.baitushum.kg/media/product_card/refrigerator_PNG9035.png",
-		    "card_name": "Холодильник   Xiaomi",
-		    "price_min": 23000
-		},
-		{
-		    "id": 24,
-		    "card_image": "https://demoapp.baitushum.kg/media/product_card/%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE.jpg",
-		    "card_name": "Кольцо Кузь",
-		    "price_min": 13000
-		},
-		{
-		    "id": 12,
-		    "card_image": "https://demoapp.baitushum.kg/media/product_card/%D1%861.jpeg",
-		    "card_name": "Шина Tunga NordWay 2 195/65 R15 91Q",
-		    "price_min": 34000
-		},
-		{
-		    "id": 19,
-		    "card_image": "https://demoapp.baitushum.kg/media/product_card/10-1-471x375.png",
-		    "card_name": "Диван Угловой Универсальный",
-		    "price_min": 23000
-		}
-	    ]
-	}
 	
 
 ## Get list of my purchase  
