@@ -2,7 +2,7 @@
 
 ##### List of links 
 
->1. [Client](#get-list-client)
+>1. [Client](#get-list-of-client)
 >2. [Service not_signed](#get-list-of-product-card)
 >3. [service signed](#search-in-list-of-product-card)
 >4. [Service create](#get-list-of-scope-of-product )
@@ -15,10 +15,33 @@
 
 
 
-## Get list of top sales
+## Get list of client
 #### Request method: GET
 
-## [/product/top_sales/](https://demoapp.baitushum.kg/product/top_sales/) 
+## [/account/client/](https://demoapp.baitushum.kg/account/client/) 
 
 
 ### Sample response
+
+    [
+        {
+            "inn": "12345678901234"
+        },
+        {
+            "inn": "22007199101028"
+        },
+        {
+            "inn": "20910199600247"
+        },
+        {
+            "inn": null
+        },
+        {
+            "inn": null
+        },
+        {
+            "inn": "22706198800981"
+        }
+    ]
+    
+    
