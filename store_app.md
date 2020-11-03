@@ -632,7 +632,7 @@ Example request in POSTMAN:
         ] 
     }
         
-## Get a list of suggesting store
+## Get an item of suggesting store
 #### Request method: GET
 
 ## [/store/suggesting_store/{id}/](https://demoapp.baitushum.kg/store/suggesting_store/9/) 
