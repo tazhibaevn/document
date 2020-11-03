@@ -4,20 +4,18 @@
 
 >1. [Top sales](#get-list-of-top-sales)
 >2. [Product card](#get-list-of-product-card)
->2. [Search in product card ](#search-in-list-of-product-card)
->3. [Scope](#get-list-of-scope-of-product )
->4. [Attributte type](#get-list-of-attribute-type)
->7. [Attribute ](#get-list-attribute-of-product)
->5. [Category](#get-list-of-category)
->6. [Sub category](#get-list-of-sub_category)
->7. [Brand](#get-list-of-brand)
->8. [Product](#get-list-of-product)
->9. [Purchase](#get-list-of-purchase)
-
->10. [Create a purchase](#create-a-purchase)
-
->11. [My purchase](#get-list-of-my-purchase)
->12. [Similar product](#get-similar-products-by-card-id)
+>3. [Search in product card ](#search-in-list-of-product-card)
+>4. [Scope](#get-list-of-scope-of-product )
+>5. [Attributte type](#get-list-of-attribute-type)
+>6. [Attribute ](#get-list-attribute-of-product)
+>7. [Category](#get-list-of-category)
+>8. [Sub category](#get-list-of-sub_category)
+>9. [Brand](#get-list-of-brand)
+>10. [Product](#get-list-of-product)
+>11. [Purchase](#get-list-of-purchase)
+>12. [Create a purchase](#create-a-purchase)
+>13. [My purchase](#get-list-of-my-purchase)
+>14. [Similar product](#get-similar-products-by-card-id)
 
 
 ## Get list of top sales
