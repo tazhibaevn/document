@@ -50,7 +50,7 @@
 #### Request method: GET
 #### Request headers: Token
 
-## [/account/client/](https://demoapp.baitushum.kg/account/favourite_product/) 
+## [/account/favourite_product/](https://demoapp.baitushum.kg/account/favourite_product/) 
 
 ![favourite_product_get:body](images/Favourite_product_get.png)
 
@@ -163,7 +163,7 @@
 #### Request headers: Token
 
 
-## [/account/client/](https://demoapp.baitushum.kg/account/favourite_product/) 
+## [/account/favourite_product/](https://demoapp.baitushum.kg/account/favourite_product/) 
 
 
 #### Request body: 
@@ -182,10 +182,12 @@
 
 
 ### If "is_favourite_product": true
-![favourite_product_post:body](images/favourite_product_response.png)
+
+![favourite_product_post_response_true:body](images/favourite_product_response.png)
 
 ### If "is_favourite_product": false
-![favourite_product_post:body](images/favourite_product_response_false.png)
+
+![favourite_product_post_response false:body](images/favourite_product_response_false.png)
 
 
 
