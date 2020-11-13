@@ -187,7 +187,7 @@
 
 ### If "is_favourite_product": false
 
-![favourite_product_post_response false:body](images/favourite_product_respnse_false.png)
+![favourite_product_post_response false:body](images/favorite_product_respnse_false.png)
 
 
 
